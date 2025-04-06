@@ -5,4 +5,8 @@
   --font-title: "Teko", "sans-serif";
   --font-subtitle: "Bricolage Grotesque", "sans-serif";
   --font-text: "Archivo Narrow", "sans-serif";
+
+  --breakpoint-xs: 30rem;
+  --breakpoint-md: 100rem;
+  --breakpoint-lg: 1100px;
 }

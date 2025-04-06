@@ -50,7 +50,7 @@ export function App() {
   }
 
   return (
-    <div className="flex h-screen flex-col gap-64 bg-gray-950 px-32 py-10 text-white">
+    <div className="flex h-screen flex-col gap-64 bg-gray-950 px-32 py-10 text-white max-[1100px]:px-20 max-[860px]:gap-40 max-[860px]:px-14">
       <header>
         <div className="font-title flex items-center gap-2 text-xl">
           <Github width={70} height={70} />
@@ -58,10 +58,12 @@ export function App() {
         </div>
       </header>
 
-      <main className="flex items-center justify-between">
-        <div className="flex flex-col gap-5">
-          <h1 className="font-subtitle text-7xl font-bold">GitHub Profile</h1>
-          <p className="font-text bg-gradient-to-r from-indigo-200 to-indigo-600 bg-clip-text text-lg font-bold text-transparent uppercase">
+      <main className="flex items-center justify-between max-[860px]:flex-col max-[860px]:gap-16">
+        <div className="flex flex-col gap-5 max-[860px]:items-center">
+          <h1 className="font-subtitle text-7xl font-bold max-[860px]:text-4xl">
+            GitHub Profile
+          </h1>
+          <p className="font-text bg-gradient-to-r from-indigo-200 to-indigo-600 bg-clip-text text-lg font-bold text-transparent uppercase max-[860px]:text-center max-[860px]:text-sm">
             Procure seu usuário do GitHub abaixo:
           </p>
           <form
@@ -92,7 +94,7 @@ export function App() {
         </div>
 
         {profile && (
-          <div className="flex items-center gap-24">
+          <div className="flex items-center gap-24 max-[1100px]:flex-col max-[1100px]:gap-10">
             <img
               src={profile.avatar_url}
               alt={`Avatar de ${profile.name}`}
