@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Teko:wght@300..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-title: "Teko", "sans-serif";
+  --font-subtitle: "Bricolage Grotesque", "sans-serif";
+  --font-text: "Archivo Narrow", "sans-serif";
+}
