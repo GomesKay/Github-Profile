@@ -12,7 +12,7 @@
 
   | Passos | Comandos | Descrição |
   | --- | --- | --- |
-  | 01 | `git clone https://github.com/GomesKay/Stopwatch.git` | Clona este repositório para o seu computador |
+  | 01 | `git clone https://github.com/GomesKay/Github-Profile.git` | Clona este repositório para o seu computador |
   | 02 | `npm install` | Instala todas as dependências necessárias para o projeto |
   | 03 | `npm run dev` | Inicia o servidor de desenvolvimento e abre o projeto no navegador |
   | 04 | [GitHub Profile](https://github-profile-orcin-three.vercel.app/) | Ou acesse o deploy do projeto feito no Vercel |
